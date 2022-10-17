@@ -169,7 +169,8 @@ const handleStop = () =>{
     </Box>
     <br/>
     <Navigator srcDoc={srcDoc}/>
-    {showButton && <FlottedButton color={buttonColor} title={buttonTitle} icon={buttonIcon}  onClick={(e)=>{
+
+    {/* {showButton && <FlottedButton color={buttonColor} title={buttonTitle} icon={buttonIcon}  onClick={(e)=>{
 
       if(buttonTitle==='Record')
       {
@@ -205,7 +206,7 @@ const handleStop = () =>{
 
 
       }} />}
-      {!showButton && <BottomDiv setHtml={setHtml} setCss={setCss} setJs={setJs} video={video} videoDuration={videoDuration}></BottomDiv>}
+      {!showButton && <BottomDiv setHtml={setHtml} setCss={setCss} setJs={setJs} video={video} videoDuration={videoDuration}></BottomDiv>} */}
       
     </>
   );
